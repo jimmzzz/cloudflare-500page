@@ -1,7 +1,7 @@
 html {
     box-sizing: border-box;
     font-size: 16px;
-    background-color: #cc0000;
+    background-color: #F0F0F0;
 
   }
   
@@ -13,7 +13,7 @@ html {
     margin: 0;
     padding: 0;
     font-weight: normal;
-    font-family: VAGRoundedLTPro;
+    font-family: TitilliumMimovrste;
   }
   
   ol, ul {
@@ -26,33 +26,24 @@ html {
   }
 
   @font-face {
-    font-family: VAGRoundedLTPro;
-    src: url(./../font/VAGRoundedLTPro-Bold.woff2)
-        format('woff2'),
-      url(./../font/VAGRoundedLTPro-Bold.woff)
-        format('woff'),
-      url(./../font/VAGRoundedLTPro-Bold.ttf)
-        format('truetype'),
-      url(./../font/VAGRoundedLTPro-Bold.svg)
-        format('svg'),
-      url(./../font/VAGRoundedLTPro-Bold.eot)
+    font-family: TitilliumMimovrste;
+    src: url(./../font/TitilliumWeb-Bold.woff2) format('woff2'),
+      url(./../font/TitilliumWeb-Bold.woff) format('woff'),
+      url(./../font/TitilliumWeb-Bold.ttf) format('truetype'),
+      url(./../font/TitilliumWeb-Bold.svg) format('svg'),
+      url(./../font/TitilliumWeb-Bold.eot)
         format('embedded-opentype');
     font-display: swap;
     font-weight: 700;
   }
-
+  
   @font-face {
-    font-family: VAGRoundedLTPro;
-    src: 
-      url(./../font/VAGRoundedLTPro-Bold.eot)
-        format('woff2'),
-      url(./../font/VAGRoundedLTPro-Light.woff)
-        format('woff'),
-      url(./../font/VAGRoundedLTPro-Light.ttf)
-        format('truetype'),
-      url(./../font/VAGRoundedLTPro-Light.svg)
-        format('svg'),
-      url(./../font/VAGRoundedLTPro-Light.eot)
+    font-family: TitilliumMimovrste;
+    src: url(./../font/TitilliumWeb-Light.woff2) format('woff2'),
+      url(./../font/TitilliumWeb-Light.woff) format('woff'),
+      url(./../font/TitilliumWeb-Light.ttf) format('truetype'),
+      url(./../font/TitilliumWeb-Light.svg) format('svg'),
+      url(./../font/TitilliumWeb-Light.eot)
         format('embedded-opentype');
     font-display: swap;
     font-weight: 100;
@@ -86,11 +77,12 @@ html {
   .logo {
     margin-top: 35px;
     margin-bottom: 15px;
+    width: 250px;
   }
 
   .title {
     font-weight: bold;
-    font-family: 'VAGRoundedLTPro';
+    font-family: 'TitilliumMimovrste';
     letter-spacing: .7px;
     font-size: 32px;
     margin-bottom: 0;
@@ -103,7 +95,7 @@ html {
   }
 
   .text {
-    font-family: 'VAGRoundedLTPro';
+    font-family: 'TitilliumMimovrste';
     margin-bottom: 24px;
     display: block;
     max-width: 430px;
