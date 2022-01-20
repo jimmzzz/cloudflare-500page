@@ -1,0 +1,121 @@
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #cc0000;
+
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: VAGRoundedLTPro;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @font-face {
+    font-family: VAGRoundedLTPro;
+    src: url(./../font/VAGRoundedLTPro-Bold.woff2)
+        format('woff2'),
+      url(./../font/VAGRoundedLTPro-Bold.woff)
+        format('woff'),
+      url(./../font/VAGRoundedLTPro-Bold.ttf)
+        format('truetype'),
+      url(./../font/VAGRoundedLTPro-Bold.svg)
+        format('svg'),
+      url(./../font/VAGRoundedLTPro-Bold.eot)
+        format('embedded-opentype');
+    font-display: swap;
+    font-weight: 700;
+  }
+
+  @font-face {
+    font-family: VAGRoundedLTPro;
+    src: 
+      url(./../font/VAGRoundedLTPro-Bold.eot)
+        format('woff2'),
+      url(./../font/VAGRoundedLTPro-Light.woff)
+        format('woff'),
+      url(./../font/VAGRoundedLTPro-Light.ttf)
+        format('truetype'),
+      url(./../font/VAGRoundedLTPro-Light.svg)
+        format('svg'),
+      url(./../font/VAGRoundedLTPro-Light.eot)
+        format('embedded-opentype');
+    font-display: swap;
+    font-weight: 100;
+  }
+
+  .wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .box {
+    margin: 0 15px;
+    min-height: 400px;
+    max-width: 730px;
+    height: auto;
+    background: white;
+    padding: 40px;
+    border-radius: 6px;
+  }
+
+  @media only screen and (min-width: 640px) {
+      .box {
+        margin-top: 30px;
+      }
+  }
+
+  .logo {
+    margin-top: 35px;
+    margin-bottom: 15px;
+  }
+
+  .title {
+    font-weight: bold;
+    font-family: 'VAGRoundedLTPro';
+    letter-spacing: .7px;
+    font-size: 32px;
+    margin-bottom: 0;
+    line-height: 1.1;
+  }
+
+  .subtitle {
+    margin-bottom: 36px;
+    color: #3d4951;
+  }
+
+  .text {
+    font-family: 'VAGRoundedLTPro';
+    margin-bottom: 24px;
+    display: block;
+    max-width: 430px;
+  }
+
+  .malvin {
+    display: block;
+    margin: 15px auto;
+    margin-top: 50px;  
+    height: 180px;
+  }
+
+  .cloudflare-token {
+      text-align: center;
+  }
+  
