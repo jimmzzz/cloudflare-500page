@@ -11,8 +11,6 @@
     box-sizing: border-box;
     font-size: 16px;
     background-color: #cc0000;
-    /* background-color: #F0F0F0; */
-    /* background-color: #e8eff4; */
 
   }
   
@@ -24,6 +22,7 @@
     margin: 0;
     padding: 0;
     font-weight: normal;
+    font-family: VAGRoundedLTPro;
   }
   
   ol, ul {
@@ -70,39 +69,83 @@
 
   .wrapper {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
     height: 100vh;
   }
 
-  .header {
+  .logo {
+    margin-top: 35px;
+    margin-bottom: 15px;
+  }
+
+  .title {
     font-weight: bold;
     font-family: 'VAGRoundedLTPro';
     letter-spacing: .7px;
     font-size: 32px;
+    margin-bottom: 0;
+  }
+
+  .subtitle {
+    margin-bottom: 36px;
+    color: #3d4951;
+  }
+
+  .text {
+    font-family: 'VAGRoundedLTPro';
     margin-bottom: 24px;
+    display: block;
+    max-width: 430px;
+  }
+
+  .malvin {
+    display: block;
+    margin: 15px auto;
+    margin-top: 50px;  
+    height: 180px;
+  }
+
+  .cloudflare-token {
+      text-align: center;
   }
 
   .box {
-    margin-top: 120px;
+    margin-top: 0;
+    margin: 30px 15px;
     min-height: 400px;
-    width: 600px;
+    width: 730px;
     background: white;
-    padding: 30px;
+    padding: 40px;
     border-radius: 6px;
+  }
+
+  @media only screen and (min-width: 640px) {
   }
 </style>
 
 <body>
     <div class="wrapper">
+        <img class="logo" src="./assets/svg/cz.svg" alt="CZ">
+
         <div class="box">
-            <h1 class="header">Plánováná odstávka</h1>
+            <h1 class="title">Plánováná odstávka webu Mall.cz</h1>
+            <h2 class="subtitle">- od 00:00 do 02:00</h2>
 
-            <p>
-                <strong>Vážení zákazníci</strong>, omlouváme se za nedostupnost internetové nákupní galerie z&nbsp;důvodu neočekávaného technického problému. 
-            </p
+            <p class="text">
+                <strong>Vážení zákazníci</strong>, 
+                
+                <p class="text">
+                    omlouváme se za nedostupnost internetové nákupní galerie v čase <strong>00:00</strong> až <strong>02:00</strong> z&nbsp;důvodu plánované odstávky systému.
+                </p>
 
-            <div>
+                <strong class="text">
+                    Tým Mall.cz
+                </strong>
+
+                <img class="malvin" src="https://mall-error-page.s3.eu-central-1.amazonaws.com/malvin_small.png" alt="Maskot Mall.cz Malvin">
+            <div class="cloudflare-token">
                 ::CLOUDFLARE_ERROR_500S_BOX::
             </div>
         </div>
