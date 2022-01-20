@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mall.cz</title>
 </head>
 <style>
     html {
@@ -86,6 +86,7 @@
     letter-spacing: .7px;
     font-size: 32px;
     margin-bottom: 0;
+    line-height: 1.1;
   }
 
   .subtitle {
@@ -112,16 +113,19 @@
   }
 
   .box {
-    margin-top: 0;
-    margin: 30px 15px;
+    margin: 0 15px;
     min-height: 400px;
-    width: 730px;
+    max-width: 730px;
+    height: auto;
     background: white;
     padding: 40px;
     border-radius: 6px;
   }
 
   @media only screen and (min-width: 640px) {
+      .box {
+        margin-top: 30px;
+      }
   }
 </style>
 
@@ -130,7 +134,7 @@
         <img class="logo" src="./assets/svg/cz.svg" alt="CZ">
 
         <div class="box">
-            <h1 class="title">Plánováná odstávka webu Mall.cz</h1>
+            <h1 class="title">Plánovaná odstávka webu Mall.cz</h1>
             <h2 class="subtitle">- od 00:00 do 02:00</h2>
 
             <p class="text">
